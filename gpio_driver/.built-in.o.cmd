@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/luka/ultrasonic-distance-module-master/gpio_driver/built-in.o :=  rm -f /home/pi/Desktop/luka/ultrasonic-distance-module-master/gpio_driver/built-in.o; ar rcsD /home/pi/Desktop/luka/ultrasonic-distance-module-master/gpio_driver/built-in.o

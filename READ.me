@@ -1,0 +1,11 @@
+sudo rmmod gpio_driver
+sudo insmod /.../gpio_driver/gpio_driver.ko 
+sudo mknod /dev/gpio_driver c 242 0
+sudo chmod +777 /dev/gpio_driver
+
+cd /.../gpio_driver_test_app/
+make 
+cd
+cd /.../gpio_driver_test_app/bin/Release/
+clear
+./gpio_driver_test_app
